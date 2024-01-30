@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Payment Page</title>
   <link rel="stylesheet" href="style11.css">
+  <script src="myscript.js"></script>
 </head>
 <body>
   <div class="container">
@@ -12,7 +13,7 @@
     <form id="payment-form" data-netlify="True">
       <div class="form-group">
         <label for="cc-number">Credit Card Number</label>
-        <input type="text" id="cc-number" name="cc-number" required>
+        <input type="text" id="cc-number" name="cc-number" placeholder="1111-2222-3333-4444" required>
       </div>
       <div class="form-group">
         <label for="expiry">Expiry Date</label>
@@ -20,16 +21,17 @@
       </div>
       <div class="form-group">
         <label for="cvv">CVV</label>
-        <input type="text" id="cvv" name="cvv" required>
+        <input type="text" id="cvv" name="cvv" placeholder="123" required>
       </div>
       <div class="form-group">
         <label for="amount">Amount</label>
-        <input type="number" id="amount" name="amount" required>
+        <input type="number" id="amount" name="amount" placeholder="100" required>
       </div>
-      <button onclick="submit()" type="submit" id="submit-btn">Send Payment</button>
+      <button onclick="submit();" type="" id="submit-btn">Send Payment</button> <p>Secured by <a href="https://www.securepay.com.au/">securepay</a></p>
     </form>
   </div>
+  
 
-  <script src="myscript.js"></script>
+  
 </body>
 </html>

@@ -1,5 +1,10 @@
-    document.getElementById("submit-btn").onclick = function() {
-        // Credit Card Number validation
+function submit(){
+   alert("Done!")
+}
+
+
+/*    document.getElementById("submit-btn").onclick = function() {
+         Credit Card Number validation
         var ccNumber = document.getElementById("cc-number").value;
         var ccRegex = /^\d{4}-\d{4}-\d{4}-\d{4}$/;
         if (!ccRegex.test(ccNumber)) {
@@ -31,4 +36,5 @@
 
         // If all validations pass, submit the form
         document.getElementById("payment-form").submit();
-    };
+    };*/
+
