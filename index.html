@@ -1,41 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Payment Page</title>
   <link rel="stylesheet" href="style11.css">
-  <script src="myscript.js"></script>
-</head>
-<body>
-  <div class="container">
-    <h2>Payment Details</h2>
-    <form id="payment-form" data-netlify="True">
-      <div class="form-group">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="cc-name" placeholder="John Doe" required>
-      </div>
-      <div class="form-group">
-        <label for="cc-number">Credit Card Number</label>
-        <input type="text" id="cc-number" name="cc-number" placeholder="1111-2222-3333-4444" required>
-      </div>
-      <div class="form-group">
-        <label for="expiry">Expiry Date</label>
-        <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
-      </div>
-      <div class="form-group">
-        <label for="cvv">CVV</label>
-        <input type="text" id="cvv" name="cvv" placeholder="123" required>
-      </div>
-      <div class="form-group">
-        <label for="amount">Amount</label>
-        <input type="number" id="amount" name="amount" placeholder="100" required>
-      </div>
-      <button onclick="submit();" type="" id="submit-btn">Send Payment</button> <p>Secured by <a href="https://www.securepay.com.au/">securepay</a></p>
-    </form>
-  </div>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Payment Page</title>
   
-
+  </head>
+  <body>
+      <div class="payment-container">
+          <div class="company-logo">
+              <!-- Add your company logo or icon here -->
+              <img src="logo.jpg" style="width: 80px; height: 80px;" alt="Company Logo">
+              <link rel="icon" type="image/x-icon" href="pp2.png">
+          </div>
+          <form data-netlify="True">
+          <label>Cardholder Name<input type="text" class="input-field" placeholder="Jane doe"></label>
+          <label>Card Number<input type="text" class="input-field" placeholder="1111-2222-3333-4444"></label>
+         <label>Expiry<input type="text" class="input-field" placeholder="10/25"></label>
+          <label>Cvv<input type="text" class="input-field" placeholder="123"></label>
+          <button class="send-button">Pay Now</button>
+          <div class="card-icons">
+              <!-- Add card icons (optional) -->
+              <div class="card-icon" style="background-image: url('visa-icon.png');"></div>
+              <div class="card-icon" style="background-image: url('mastercard-icon.png');"></div>
+              <!-- Add more card icons as needed -->
+          </div>
+  </form>    
+      </div>
+  </body>
+  </html>
   
-</body>
-</html>

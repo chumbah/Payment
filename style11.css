@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #eff5fb; /* Light blue background */
+    background-color: #eff5fb; /* Light blue background 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -43,7 +43,7 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #4caf50; /* Green button */
+    background-color: #4caf50; /* Green button 
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -53,7 +53,7 @@ body {
   }
   
   input[type="submit"]:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; /* Darker green on hover 
   }
   
   input:invalid {
@@ -66,7 +66,7 @@ body {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
   }
   
-  /* Media Queries */
+  /* Media Queries 
   @media only screen and (max-width: 600px) {
     .container {
       max-width: 90%;
@@ -75,19 +75,79 @@ body {
   }
   
   #submit-btn {
-    background-color: #4CAF50; /* Green background */
-    color: black; /* Black text color */
-    padding: 12px 20px; /* Padding for the button */
-    border: none; /* Remove border */
-    border-radius: 6px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    background-color: #4CAF50; /* Green background 
+    color: black; /* Black text color 
+    padding: 12px 20px; /* Padding for the button 
+    border: none; /* Remove border 
+    border-radius: 6px; /* Rounded corners 
+    cursor: pointer; /* Cursor style 
+    font-size: 16px; /* Font size 
+    transition: background-color 0.3s; /* Smooth transition for hover effect 
   }
   
   #submit-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; /* Darker green on hover 
   }
-  
+  */
 
   
+  /* Reset default margin and padding */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  /* Payment form container */
+  .payment-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+  }
+
+  /* Company logo/icon */
+  .company-logo {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  /* Form fields */
+  .input-field {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+
+  /* Button styling */
+  .send-button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4a9974;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  /* Additional styling for card icons (optional) */
+  .card-icons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+  }
+
+  .card-icon {
+      width: 30px;
+      height: 20px;
+      background-size: cover;
+      /* Add background image URL for card icons */
+  }

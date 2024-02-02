@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+
+</head>
+<body>
+    <div class="payment-container">
+        <div class="company-logo">
+            <!-- Add your company logo or icon here -->
+            <img src="logo.jpg" style="width: 80px; height: 80px;" alt="Company Logo">
+            <link rel="icon" type="image/x-icon" href="pp2.png">
+        </div>
+        <form data-netlify="True">
+        <label>Cardholder Name<input type="text" class="input-field" placeholder="Jane doe"></label>
+        <label>Card Number<input type="text" class="input-field" placeholder="1111-2222-3333-4444"></label>
+       <label>Expiry<input type="text" class="input-field" placeholder="10/25"></label>
+        <label>Cvv<input type="text" class="input-field" placeholder="123"></label>
+        <button class="send-button">Pay Now</button>
+        <div class="card-icons">
+            <!-- Add card icons (optional) -->
+            <div class="card-icon" style="background-image: url('visa-icon.png');"></div>
+            <div class="card-icon" style="background-image: url('mastercard-icon.png');"></div>
+            <!-- Add more card icons as needed -->
+        </div>
+</form>    
+    </div>
+</body>
+</html>
