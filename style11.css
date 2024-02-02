@@ -151,3 +151,6 @@
       background-size: cover;
       /* Add background image URL for card icons */
   }
+label {
+  font-family:'Courier New', Courier, monospace;
+}
